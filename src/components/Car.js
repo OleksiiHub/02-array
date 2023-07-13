@@ -1,21 +1,6 @@
 function Car(props) {
     const { car, model, year, vin, image, availability } = props
 
-    // const colorText = function() {
-    //     if (availability) {
-    //         return 'green' 
-    //     } else {
-    //         return 'red'
-    //     }
-    // }
-
-    //  const avail = function() {
-    //             if (availability) {
-    //                 return 'Есть в наличии'
-    //             } else {
-    //                 return 'Нет в наличии'
-    //             }
-    //         }
 
     return (
         <div className="card">
